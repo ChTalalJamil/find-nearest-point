@@ -169,11 +169,10 @@
                 nearestLocations = [
 
                     // {
-                    // MAP_API_KEY=AIzaSyA_L-LDpdgp2QRNyRsWM8dfDta8lgfEqvU
                     //     lat = '31.4828768',
                     //     lng = '74.2596828',
                     //     postCode = '54600',
-                    //     areaName = 'Model Town, Lahore, Punjab',
+                    //     areaName = 'Model Town, Lahore, Punjab AIzaSyA_L-LDpdgp2QRNyRsWM8dfDta8lgfEqvU',
 
                     // },
                     // {
