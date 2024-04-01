@@ -129,7 +129,7 @@
                     map.setView([address.lat, address.lon], 14);
                     closeModalAndShowLocation();
                     
-                    // var iconContainer = document.querySelector('.icon-container');
+                    // var iconContainer = document.querySelector('.icon-container') AIzaSyA_L-LDpdgp2QRNyRsWM8dfDta8lgfEqvU;
                     // iconContainer.classList.remove('open');
                     // iconContainer.classList.toggle('closed');
                 },
@@ -172,7 +172,7 @@
                     //     lat = '31.4828768',
                     //     lng = '74.2596828',
                     //     postCode = '54600',
-                    //     areaName = ' AIzaSyA_L-LDpdgp2QRNyRsWM8dfDta8lgfEqvU Model Town, Lahore, Punjab ',
+                    //     areaName = 'Model Town, Lahore, Punjab ',
 
                     // },
                     // {
