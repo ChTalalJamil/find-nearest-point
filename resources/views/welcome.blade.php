@@ -128,10 +128,6 @@
                     currentUserMarker.bindPopup('<b>' + address.address_line1 + '</b>').openPopup();
                     map.setView([address.lat, address.lon], 14);
                     closeModalAndShowLocation();
-                    
-                    // var iconContainer = document.querySelector('.icon-container') AIzaSyA_L-LDpdgp2QRNyRsWM8dfDta8lgfEqvU;
-                    // iconContainer.classList.remove('open');
-                    // iconContainer.classList.toggle('closed');
                 },
             });
 
@@ -167,27 +163,6 @@
 
                 });
                 nearestLocations = [
-
-                    // {
-                    //     lat = '31.4828768',
-                    //     lng = '74.2596828',
-                    //     postCode = '54600',
-                    //     areaName = 'Model Town, Lahore, Punjab ',
-
-                    // },
-                    // {
-                    //     lat = '31.4685025',
-                    //     lng = '74.2653194',
-                    //     postCode = '54600',
-                    //     areaName = 'Johar Town, Lahore, Punjab',
-                    // },
-                    // {
-                    //     lat = '31.4685025',
-                    //     lng = '74.2653194',
-                    //     postCode = '54600',
-                    //     areaName = 'DHA, Lahore, Punjab',
-
-                    // },
 
                 ];
 
