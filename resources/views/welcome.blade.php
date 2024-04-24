@@ -281,6 +281,7 @@
                 navigator.geolocation.getCurrentPosition(showPosition, showError);
             } else {                
                 console.log("Geolocation is not supported by this browser.");
+                console.log("Geolocation is not supported by this browser.");
             }
         };
 
@@ -291,6 +292,7 @@
         function showPosition(position) {
 
             // Convert EPSG:3857 to EPSG:4326
+
             const userLocation = [position.coords.latitude, position.coords.longitude];
             // Update map to show user's location
             map.setView(userLocation, 14);
@@ -310,7 +312,7 @@
             currentUserMarker.bindPopup(currentUserPopupContent).openPopup();
         }
 
-        // Function to calculate distance between two coordinates using Haversine formula
+        // Function to calculate distance between two coordinates using Haversine formula 
         function calculateDistance(lat1, lon1, lat2, lon2) {
             const R = 6371; // Radius of the Earth in kilometers
             const dLat = deg2rad(lat2 - lat1);
